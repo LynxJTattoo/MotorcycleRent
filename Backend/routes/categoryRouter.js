@@ -1,5 +1,5 @@
 import express from "express";
-import { createCategory, deleteCategory, readCategory, updateCategory } from "../controllers/categoryController.js";
+import { createCategory, deleteCategory, readCategory, readTCategory, updateCategory } from "../controllers/categoryController.js";
 
 const categoryRouter = express.Router()
 
@@ -13,6 +13,10 @@ categoryRouter.post("/",(req, res) =>{
 
 categoryRouter.get("/:idCategoria",(req, res) =>{
     readCategory(req, res)    
+});
+
+categoryRouter.get("/",(req, res) =>{
+    readTCategory(req, res)        
 });
 
 // PATCH

@@ -12,7 +12,7 @@ function DatosMoto(props) {
         return (
             <div className='transaction grid card'>
                 <p className='idMoto'>{idMoto}</p>
-                <p className="nombre">{nombre}</p>
+                <p className='nombre'>{nombre}</p>
                 <p className='modelo'>{modelo}</p>
                 <p className='marca'>{marca}</p>
                 <p className='descripcion'>{descripcion}</p>

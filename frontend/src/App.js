@@ -5,7 +5,9 @@ import "./assets/global.css"
 import Navbar from './components/ui/Navbar';
 import Home from './views/home/Home';
 import Login from './views/login/Login';
-import MotoPanel from './views/panel/MotoPanel';
+import MotoPanel from './views/motoPanel/MotoPanel';
+import GeneralPanel from './views/panel/GeneralPanel';
+import CategoryPanel from './views/categoryPanel/CategoryPanel';
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
             </Route>
 
             <Route path='/login' element={<Login />} />
-            <Route path='/panel' element={<MotoPanel />} />
+            <Route path='/panel' element={<GeneralPanel />} />
+            <Route path='/motoPanel' element={<MotoPanel />} />
+            <Route path='/categoryPanel' element={<CategoryPanel />} />
         </Routes>
     )
 }

@@ -29,6 +29,9 @@ mongoose.connect("mongodb+srv://motorcycleapp:motorcycleapp@clustermotorcycle.5u
 
 //Middlware
 
+app.use(cors({
+    origin: "http://localhost:3000"
+}))
 app.use(express.json())
 app.use("/user",userRouter)
 app.use("/client",clientRouter)
@@ -36,7 +39,7 @@ app.use("/category",categoryRouter)
 app.use("/message",messageRouter)
 app.use("/moto",motoRouter)
 app.use("/reservation",reservationRouter)
-app.use(cors())
+
 
     
     

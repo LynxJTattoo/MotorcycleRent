@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import DatosMoto from './DatosMotos.js';
+import DatosMoto from './DatosMotos';
 
 import "./MotoPanel.css"
 
@@ -10,12 +10,9 @@ function MotoPanel() {
     async function fetchDatosMotos() {
 
         //const res = await fetch("http://jsonplaceholder.typicode.com/todos")
-        const res = await fetch("http://localhost:8080/moto/", 
-        { 
-        'headers': { 'Access-Control-Allow-Origin': '*'}})
-        console.log(res)
+        const res = await fetch("http://localhost:8080/moto/") 
         const documents = await res.json()
-        return setDocuments(documents)
+        setDocuments(documents)
     }
 
     const [documents, setDocuments] = useState([]);

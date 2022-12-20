@@ -40,6 +40,22 @@ export async function readCategory(req, res){
     res.status(200).json(categoriaDoc)
 }
 
+export async function readTCategory(req, res){
+    
+    
+    let categoriaDoc
+
+    try {
+        categoriaDoc = await categoryModel.find()
+    } catch (error) {
+        res.status(400).json(error.message)
+        return
+        
+    }   
+
+    res.status(200).json(categoriaDoc)
+}
+
 // patch
 export async function updateCategory(req, res){
     
