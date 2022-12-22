@@ -15,6 +15,10 @@ clientRouter.get("/:idCliente",(req,res) =>{
     readClient(req, res)    
 });
 
+/*motoRouter.get("/",(req, res) =>{
+    readTClient(req, res)    
+});*/
+
 // PATCH
 
 clientRouter.patch("/:idCliente",(req,res) =>{
