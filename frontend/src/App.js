@@ -12,6 +12,9 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Mision from './components/mision/Mision';
 import Vision from './components/vision/Vision';
+import ClientesPanel from './views/clientesPanel/ClientesPanel';
+import ReservacionesPanel from './views/reservacionesPanel/ReservacionesPanel';
+import MensajesPanel from './views/mensajesPanel/MensajesPanel';
 
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
             <Route path='/panel' element={<GeneralPanel />} />
             <Route path='/motoPanel' element={<MotoPanel />} />
             <Route path='/categoryPanel' element={<CategoryPanel />} />
+            <Route path='/clientesPanel' element={<ClientesPanel />} />
+            <Route path='/mensajesPanel' element={<MensajesPanel />} />
+            <Route path='/reservacionesPanel' element={<ReservacionesPanel />} />
         </Routes>
     )
 }
