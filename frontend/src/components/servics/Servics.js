@@ -1,7 +1,7 @@
 import React from "react";
-import "./Services.css";
+import "./Servics.css";
 
-function Services() {
+function Servics() {
   return (
     <>
       <section className="about">
@@ -33,4 +33,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Servics;

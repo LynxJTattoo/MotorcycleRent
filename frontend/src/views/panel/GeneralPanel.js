@@ -18,9 +18,9 @@ function GeneralPanel() {
                  <form className='flex card form'>
                     <Link to="/motoPanel"><Button style="fill">Motos</Button></Link>
                     <Link to="/categoryPanel"><Button style="fill">Categorias</Button></Link>
-                    <Link to="/panel"><Button style="fill">Clientes</Button></Link>
-                    <Link to="/panel"><Button style="fill">Mensajes</Button></Link>
-                    <Link to="/panel"><Button style="fill">Reservaciones</Button></Link>
+                    <Link to="/clientesPanel"><Button style="fill">Clientes</Button></Link>
+                    <Link to="/mensajesPanel"><Button style="fill">Mensajes</Button></Link>
+                    <Link to="/reservacionesPanel"><Button style="fill">Reservaciones</Button></Link>
                 </form>                
             </div>
         </section>
