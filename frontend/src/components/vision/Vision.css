@@ -7,13 +7,13 @@
 
 .parVision {
     font-family: 'Crimson Text', serif;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .image5{
-    height: 10cm;
-    width: auto;
-    padding-left: 6rem;
+    width: 600px;
     opacity: 0.8;
+    display: block;
+    margin: auto;
 }

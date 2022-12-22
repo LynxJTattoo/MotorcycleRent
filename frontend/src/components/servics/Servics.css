@@ -5,52 +5,49 @@
 }
 
 .pa {
-    padding-left: 3rem;
+    text-align: left;
     font-family: 'Anton', sans-serif;
 }
 
 .image{
-    height: 5cm;
-    width: auto;
-    padding-left: 3rem;
+    width: 480px;
+    opacity: 0.8;
+    display: block;
+    margin-right: auto;
 }
 
 .pe {
     text-align: center;
-    padding-left: 3rem;
     font-family: 'Anton', sans-serif;
 }
 
 .image1{
-    height: 5cm;
-    width: auto;
-    padding-left: 8rem;
-    align-items: center;
+    width: 480px;
+    opacity: 0.8;
+    display: block;
+    margin: auto;
 }
 
 .pi {
     text-align: right;
-    padding-right: 3rem;
     font-family: 'Anton', sans-serif;
 }
 
 .image2{
-    height: 5cm;
-    width: auto;
-    padding-left: 8rem;
-    align-items: right;
+    width: 480px;
+    opacity: 0.8;
+    display: block;
+    margin-left: auto;
 }
 
 .po {
-    padding-top: 2rem;
-    text-align: center;
-    padding-left: 3rem;
+    text-align: left;
     font-family: 'Anton', sans-serif;
 }
 
 .image3{
-    height: 8cm;
-    width: auto;
-    padding-left: 27rem;
-    padding-top: 1rem;
+    width: 480px;
+    opacity: 0.8;
+    display: block;
+    margin-right: auto;
 }
