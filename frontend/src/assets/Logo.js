@@ -16,7 +16,7 @@ function Logo(props) {
 
     return (
         <div className='flex logo'>
-            <img src={logo} style={style}></img>
+            <img src={logo} style={style} alt="logo"></img>
             {showText ? <h1>Motorcycle Rent</h1> : null}
         </div >
     );

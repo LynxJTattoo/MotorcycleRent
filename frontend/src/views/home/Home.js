@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import Button from '../../components/forms/Button';
 
@@ -24,7 +25,7 @@ function Home() {
                 </GridColumn>
 
                 <GridColumn className="illustration" column="span 3">
-                    <img src={illustration}></img>
+                    <img src={illustration} alt=""></img>
                 </GridColumn>
             </div>
         </section>

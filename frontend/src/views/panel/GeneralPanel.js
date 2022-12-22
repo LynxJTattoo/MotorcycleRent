@@ -1,7 +1,7 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/Logo';
-import Input from '../../components/forms/Input';
 import Button from '../../components/forms/Button';
 
 
